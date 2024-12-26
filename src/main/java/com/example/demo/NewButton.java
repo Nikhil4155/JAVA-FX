@@ -29,7 +29,7 @@ public class NewButton extends Application {
         node.setAlignment(Pos.CENTER); // sets all child elements at the center
 //  Earlier we used to add Color while declaring Scene but the same thing is not possible while using Flowpane.. we can
 //  either add by external css or using setbackground method
-        node.setStyle("-fx-background-color: blue-violet;");
+        node.setStyle("-fx-background-color: blueviolet;");
 //        node.setBackground(new Background(new BackgroundFill(Color.BLUE-VIOLET, CornerRadii.EMPTY, Insets.EMPTY)));
 
         response = new Label("No button was clicked");
