@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class CountryComboBoxDemo extends Application {
+public class Program4CountryComboBox extends Application {
     @Override
     public void start(Stage stage) {
         // Set the title of the stage

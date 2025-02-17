@@ -2,12 +2,11 @@ package com.example.demo;
 
 import javafx.application.*;
 import javafx.scene.*;
-import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
 import javafx.geometry.*;
-public class JavaFXEventDemo extends Application {
+public class Program1Buttons extends Application {
     Label response;
     public static void main(String[] args) {
         // Start the JavaFX application by calling launch().
@@ -41,6 +40,7 @@ public class JavaFXEventDemo extends Application {
         // Handle the action events for the Beta button.
         btnBeta.setOnAction(new EventHandler<ActionEvent>() {
             public void handle(ActionEvent ae) {
+
                 response.setText("Beta was pressed.");
             }
         });

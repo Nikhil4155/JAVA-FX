@@ -9,7 +9,7 @@ import javafx.geometry.*;
 import javafx.beans.value.*;
 import javafx.collections.*;
 
-public class ListViewDemo extends Application {
+public class Program4ListView extends Application {
     Label response;
 
     public static void main(String[] args) {

@@ -6,9 +6,8 @@ import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
-import javafx.geometry.*;
 
-public class MenuDemo extends Application {
+public class Program3Menu extends Application {
     Label response;
 
     public static void main(String[] args) {

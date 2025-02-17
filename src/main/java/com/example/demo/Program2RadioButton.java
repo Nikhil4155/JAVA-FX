@@ -7,10 +7,9 @@ import javafx.scene.*;
 import javafx.stage.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
-import javafx.event.*;
 import javafx.geometry.*;
 
-public class RadioButtonDemo extends Application {
+public class Program2RadioButton extends Application {
     Label response;
 
     public static void main(String[] args) {
